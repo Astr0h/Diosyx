@@ -1,0 +1,11 @@
+while wait(1) do
+	if game.Players.LocalPlayer.PlayerGui.Trade.Enabled == false then
+
+		local args = {
+			[1] = "RequestTradeWithAsync",
+			[2] = game:GetService("Players"):WaitForChild("lightwhite074")
+		}
+
+		game:GetService("ReplicatedStorage"):WaitForChild("TradeMasterEvent"):FireServer(unpack(args))
+	end
+end
