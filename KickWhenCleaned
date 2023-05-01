@@ -1,0 +1,5 @@
+while wait(10) do
+	if #game:GetService("Players").LocalPlayer.PlayerGui.Trade.BG.You["1"]:GetChildren() >= 2 then
+		game.Players.LocalPlayer:Kick("Your internet connection dropped, potential data loss has occured")
+	end
+end
