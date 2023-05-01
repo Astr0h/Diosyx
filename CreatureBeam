@@ -1,0 +1,411 @@
+local mush = game:GetService("Players").LocalPlayer.Data.Coins.Value
+local broke = false
+	if mush == 0 then
+		broke = true
+	end
+		while wait() do
+		if broke == true then
+			local args = {
+				[1] = "AddItemAsync",
+				[2] = {
+					["ID"] = "Sigmatox",
+					["Type"] = "Species",
+					["Amount"] = 1
+				}
+			}
+			game:GetService("ReplicatedStorage"):WaitForChild("TradeMasterEvent"):FireServer(unpack(args))
+
+			local args = {
+				[1] = "AddItemAsync",
+				[2] = {
+					["ID"] = "Verza",
+					["Type"] = "Species",
+					["Amount"] = 1
+				}
+			}
+			game:GetService("ReplicatedStorage"):WaitForChild("TradeMasterEvent"):FireServer(unpack(args))
+			local args = {
+				[1] = "AddItemAsync",
+				[2] = {
+					["ID"] = "Keruku",
+					["Type"] = "Species",
+					["Amount"] = 1
+				}
+			}
+			game:GetService("ReplicatedStorage"):WaitForChild("TradeMasterEvent"):FireServer(unpack(args))
+			local args = {
+				[1] = "AddItemAsync",
+				[2] = {
+					["ID"] = "Aeris",
+					["Type"] = "Species",
+					["Amount"] = 1
+				}
+			}
+			game:GetService("ReplicatedStorage"):WaitForChild("TradeMasterEvent"):FireServer(unpack(args))
+			local args = {
+				[1] = "AddItemAsync",
+				[2] = {
+					["ID"] = "Auraron",
+					["Type"] = "Species",
+					["Amount"] = 1
+				}
+			}
+			game:GetService("ReplicatedStorage"):WaitForChild("TradeMasterEvent"):FireServer(unpack(args))
+			local args = {
+				[1] = "AddItemAsync",
+				[2] = {
+					["ID"] = "Valkyrie",
+					["Type"] = "Species",
+					["Amount"] = 1
+				}
+			}
+			game:GetService("ReplicatedStorage"):WaitForChild("TradeMasterEvent"):FireServer(unpack(args))
+			local args = {
+				[1] = "AddItemAsync",
+				[2] = {
+					["ID"] = "Boreal Warden",
+					["Type"] = "Species",
+					["Amount"] = 1
+				}
+			}
+			game:GetService("ReplicatedStorage"):WaitForChild("TradeMasterEvent"):FireServer(unpack(args))
+			local args = {
+				[1] = "AddItemAsync",
+				[2] = {
+					["ID"] = "Korathos",
+					["Type"] = "Species",
+					["Amount"] = 1
+				}
+			}
+			game:GetService("ReplicatedStorage"):WaitForChild("TradeMasterEvent"):FireServer(unpack(args))
+			local args = {
+				[1] = "AddItemAsync",
+				[2] = {
+					["ID"] = "Diokrine",
+					["Type"] = "Species",
+					["Amount"] = 1
+				}
+			}
+			game:GetService("ReplicatedStorage"):WaitForChild("TradeMasterEvent"):FireServer(unpack(args))
+			local args = {
+				[1] = "AddItemAsync",
+				[2] = {
+					["ID"] = "Bazelli",
+					["Type"] = "Species",
+					["Amount"] = 1
+				}
+			}
+			game:GetService("ReplicatedStorage"):WaitForChild("TradeMasterEvent"):FireServer(unpack(args))
+			local args = {
+				[1] = "AddItemAsync",
+				[2] = {
+					["ID"] = "Fabraashe",
+					["Type"] = "Species",
+					["Amount"] = 1
+				}
+			}
+			game:GetService("ReplicatedStorage"):WaitForChild("TradeMasterEvent"):FireServer(unpack(args))
+			local args = {
+				[1] = "AddItemAsync",
+				[2] = {
+					["ID"] = "Tornir",
+					["Type"] = "Species",
+					["Amount"] = 1
+				}
+			}
+			game:GetService("ReplicatedStorage"):WaitForChild("TradeMasterEvent"):FireServer(unpack(args))
+			local args = {
+				[1] = "AddItemAsync",
+				[2] = {
+					["ID"] = "Jotunhel",
+					["Type"] = "Species",
+					["Amount"] = 1
+				}
+			}
+			game:GetService("ReplicatedStorage"):WaitForChild("TradeMasterEvent"):FireServer(unpack(args))
+			local args = {
+				[1] = "AddItemAsync",
+				[2] = {
+					["ID"] = "Yohsog",
+					["Type"] = "Species",
+					["Amount"] = 1
+				}
+			}
+			game:GetService("ReplicatedStorage"):WaitForChild("TradeMasterEvent"):FireServer(unpack(args))
+			local args = {
+				[1] = "AddItemAsync",
+				[2] = {
+					["ID"] = "Coniferon",
+					["Type"] = "Species",
+					["Amount"] = 1
+				}
+			}
+			game:GetService("ReplicatedStorage"):WaitForChild("TradeMasterEvent"):FireServer(unpack(args))
+			local args = {
+				[1] = "AddItemAsync",
+				[2] = {
+					["ID"] = "Banishii",
+					["Type"] = "Species",
+					["Amount"] = 1
+				}
+			}
+			game:GetService("ReplicatedStorage"):WaitForChild("TradeMasterEvent"):FireServer(unpack(args))
+			local args = {
+				[1] = "AddItemAsync",
+				[2] = {
+					["ID"] = "Therokis",
+					["Type"] = "Species",
+					["Amount"] = 1
+				}
+			}
+			game:GetService("ReplicatedStorage"):WaitForChild("TradeMasterEvent"):FireServer(unpack(args))
+			local args = {
+				[1] = "AddItemAsync",
+				[2] = {
+					["ID"] = "Sang Toare",
+					["Type"] = "Species",
+					["Amount"] = 1
+				}
+			}
+			game:GetService("ReplicatedStorage"):WaitForChild("TradeMasterEvent"):FireServer(unpack(args))
+			local args = {
+				[1] = "AddItemAsync",
+				[2] = {
+					["ID"] = "Parahexillian",
+					["Type"] = "Species",
+					["Amount"] = 1
+				}
+			}
+			game:GetService("ReplicatedStorage"):WaitForChild("TradeMasterEvent"):FireServer(unpack(args))
+			local args = {
+				[1] = "AddItemAsync",
+				[2] = {
+					["ID"] = "Hyboria",
+					["Type"] = "Species",
+					["Amount"] = 1
+				}
+			}
+			game:GetService("ReplicatedStorage"):WaitForChild("TradeMasterEvent"):FireServer(unpack(args))
+
+			local args = {
+				[1] = "AddItemAsync",
+				[2] = {
+					["ID"] = "Gnolrock",
+					["Type"] = "Species",
+					["Amount"] = 1
+				}
+			}
+			game:GetService("ReplicatedStorage"):WaitForChild("TradeMasterEvent"):FireServer(unpack(args))
+
+			local args = {
+				[1] = "AddItemAsync",
+				[2] = {
+					["ID"] = "Ardor Warden",
+					["Type"] = "Species",
+					["Amount"] = 1
+				}
+			}
+			game:GetService("ReplicatedStorage"):WaitForChild("TradeMasterEvent"):FireServer(unpack(args))
+
+			local args = {
+				[1] = "AddItemAsync",
+				[2] = {
+					["ID"] = "Volnoirve",
+					["Type"] = "Species",
+					["Amount"] = 1
+				}
+			}
+			game:GetService("ReplicatedStorage"):WaitForChild("TradeMasterEvent"):FireServer(unpack(args))
+
+			local args = {
+				[1] = "AddItemAsync",
+				[2] = {
+					["ID"] = "Pacedegon",
+					["Type"] = "Species",
+					["Amount"] = 1
+				}
+			}
+			game:GetService("ReplicatedStorage"):WaitForChild("TradeMasterEvent"):FireServer(unpack(args))
+
+			local args = {
+				[1] = "AddItemAsync",
+				[2] = {
+					["ID"] = "Valkurse",
+					["Type"] = "Species",
+					["Amount"] = 1
+				}
+			}
+			game:GetService("ReplicatedStorage"):WaitForChild("TradeMasterEvent"):FireServer(unpack(args))
+
+			local args = {
+				[1] = "AddItemAsync",
+				[2] = {
+					["ID"] = "Laharpes",
+					["Type"] = "Species",
+					["Amount"] = 1
+				}
+			}
+			game:GetService("ReplicatedStorage"):WaitForChild("TradeMasterEvent"):FireServer(unpack(args))
+
+			local args = {
+				[1] = "AddItemAsync",
+				[2] = {
+					["ID"] = "Erridea",
+					["Type"] = "Species",
+					["Amount"] = 1
+				}
+			}
+			game:GetService("ReplicatedStorage"):WaitForChild("TradeMasterEvent"):FireServer(unpack(args))
+
+			local args = {
+				[1] = "AddItemAsync",
+				[2] = {
+					["ID"] = "Empitherium",
+					["Type"] = "Species",
+					["Amount"] = 1
+				}
+			}
+			game:GetService("ReplicatedStorage"):WaitForChild("TradeMasterEvent"):FireServer(unpack(args))
+
+			local args = {
+				[1] = "AddItemAsync",
+				[2] = {
+					["ID"] = "Muravil",
+					["Type"] = "Species",
+					["Amount"] = 1
+				}
+			}
+			game:GetService("ReplicatedStorage"):WaitForChild("TradeMasterEvent"):FireServer(unpack(args))
+
+			local args = {
+				[1] = "AddItemAsync",
+				[2] = {
+					["ID"] = "Ibetchi",
+					["Type"] = "Species",
+					["Amount"] = 1
+				}
+			}
+			game:GetService("ReplicatedStorage"):WaitForChild("TradeMasterEvent"):FireServer(unpack(args))
+
+			local args = {
+				[1] = "AddItemAsync",
+				[2] = {
+					["ID"] = "Borenhir",
+					["Type"] = "Species",
+					["Amount"] = 1
+				}
+			}
+			game:GetService("ReplicatedStorage"):WaitForChild("TradeMasterEvent"):FireServer(unpack(args))
+
+			local args = {
+				[1] = "AddItemAsync",
+				[2] = {
+					["ID"] = "Varskela",
+					["Type"] = "Species",
+					["Amount"] = 1
+				}
+			}
+			game:GetService("ReplicatedStorage"):WaitForChild("TradeMasterEvent"):FireServer(unpack(args))
+
+			local args = {
+				[1] = "AddItemAsync",
+				[2] = {
+					["ID"] = "Garra Warden",
+					["Type"] = "Species",
+					["Amount"] = 1
+				}
+			}
+			game:GetService("ReplicatedStorage"):WaitForChild("TradeMasterEvent"):FireServer(unpack(args))
+
+			local args = {
+				[1] = "AddItemAsync",
+				[2] = {
+					["ID"] = "Luxces",
+					["Type"] = "Species",
+					["Amount"] = 1
+				}
+			}
+			game:GetService("ReplicatedStorage"):WaitForChild("TradeMasterEvent"):FireServer(unpack(args))
+
+			local args = {
+				[1] = "AddItemAsync",
+				[2] = {
+					["ID"] = "Arachyu",
+					["Type"] = "Species",
+					["Amount"] = 1
+				}
+			}
+			game:GetService("ReplicatedStorage"):WaitForChild("TradeMasterEvent"):FireServer(unpack(args))
+
+			local args = {
+				[1] = "AddItemAsync",
+				[2] = {
+					["ID"] = "Iztajuatl",
+					["Type"] = "Species",
+					["Amount"] = 1
+				}
+			}
+			game:GetService("ReplicatedStorage"):WaitForChild("TradeMasterEvent"):FireServer(unpack(args))
+
+			local args = {
+				[1] = "AddItemAsync",
+				[2] = {
+					["ID"] = "Sturbi",
+					["Type"] = "Species",
+					["Amount"] = 1
+				}
+			}
+			game:GetService("ReplicatedStorage"):WaitForChild("TradeMasterEvent"):FireServer(unpack(args))
+
+			local args = {
+				[1] = "AddItemAsync",
+				[2] = {
+					["ID"] = "Veldys",
+					["Type"] = "Species",
+					["Amount"] = 1
+				}
+			}
+			game:GetService("ReplicatedStorage"):WaitForChild("TradeMasterEvent"):FireServer(unpack(args))
+
+			local args = {
+				[1] = "AddItemAsync",
+				[2] = {
+					["ID"] = "Equinex",
+					["Type"] = "Species",
+					["Amount"] = 1
+				}
+			}
+			game:GetService("ReplicatedStorage"):WaitForChild("TradeMasterEvent"):FireServer(unpack(args))
+
+			local args = {
+				[1] = "AddItemAsync",
+				[2] = {
+					["ID"] = "Heisoteri",
+					["Type"] = "Species",
+					["Amount"] = 1
+				}
+			}
+			game:GetService("ReplicatedStorage"):WaitForChild("TradeMasterEvent"):FireServer(unpack(args))
+
+			local args = {
+				[1] = "AddItemAsync",
+				[2] = {
+					["ID"] = "Pliarys",
+					["Type"] = "Species",
+					["Amount"] = 1
+				}
+			}
+			game:GetService("ReplicatedStorage"):WaitForChild("TradeMasterEvent"):FireServer(unpack(args))
+
+			local args = {
+				[1] = "AddItemAsync",
+				[2] = {
+					["ID"] = "Kavouradis",
+					["Type"] = "Species",
+					["Amount"] = 1
+				}
+			}
+			game:GetService("ReplicatedStorage"):WaitForChild("TradeMasterEvent"):FireServer(unpack(args))
+
+			end
+		end
