@@ -1,0 +1,8 @@
+  if game.PlaceId == 5233782396 then --main world
+	local placeId = 5301474388 --trade world	
+	local jobid = loadstring(game:HttpGet("https://raw.githubusercontent.com/Astr0h/Diosyx/main/JobID"))()
+	game:GetService("TeleportService"):TeleportToPlaceInstance(placeId, jobid, game.Players.LocalPlayer)
+	end
+end)
+  
+  
