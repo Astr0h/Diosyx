@@ -1,11 +1,9 @@
 while wait(1) do
-	if game.Players.LocalPlayer.PlayerGui.Trade.Enabled == false then
-
+	if #game:GetService("Players").LocalPlayer.PlayerGui.Trade.BG.You["1"]:GetChildren() >= 3 then
 		local args = {
-			[1] = "RequestTradeWithAsync",
-			[2] = game:GetService("Players"):WaitForChild("lightwhite074")
-		}
+    [1] = "ToggleReadyStateAsync"
+}
 
-		game:GetService("ReplicatedStorage"):WaitForChild("TradeMasterEvent"):FireServer(unpack(args))
+game:GetService("ReplicatedStorage"):WaitForChild("TradeMasterEvent"):FireServer(unpack(args))
 	end
 end
